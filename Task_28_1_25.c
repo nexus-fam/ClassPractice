@@ -54,7 +54,7 @@ int main() {
             break;
         }
         default:
-            printf("Invalid choice. Please enter a number between 1 and 3.\n");
+            printf("Invalid choice. Please enter a number between 1 and 5.\n");
             break;
     }
 
