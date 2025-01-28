@@ -3,9 +3,12 @@
 int main() {
     int choice;
 
+    // Prompted options and take input
     printf("1. Fahrenheit to Celsius\n2. add two numbers\n3. subtract two numbers\n4. multiply two numbers\n5. divide two numbers\n");
     scanf("%d", &choice);
 
+/* used switch-case for every option and cases has been enclosed in a brace,
+    so the delarations can be executed */
     switch (choice) {
         case 1: {
         float F, C;
@@ -39,7 +42,7 @@ int main() {
             printf("The product of the two numbers is: %d\n", product);
             break;
         }
-        case 5: {
+        case 5: { // used label and goto statement to loop if denumenitor is 0
             int p, q;
             float quotient;
             read :
