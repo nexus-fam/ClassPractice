@@ -8,7 +8,7 @@ int main() {
     scanf("%d", &choice);
 
 /* used switch-case for every option and cases has been enclosed in a brace,
-    so the delarations can be executed */
+    so the declarations can be executed */
     switch (choice) {
         case 1: {
         float F, C;
