@@ -6,13 +6,13 @@ int main() {
 
     // Label for re-reading input in case of invalid selection
     read:
-    printf("Select a number from 1 to 5\n1. Farhenheit to Celsius\n2. Addition of two numbers\n3. Subtraction of two numbers\n4. Multiplication of two numbers\n5. Division of two numbers\n");
+    printf("Select a number from 1 to 5\n1. Fahrenheit to Celsius\n2. Addition of two numbers\n3. Subtraction of two numbers\n4. Multiplication of two numbers\n5. Division of two numbers\n");
     scanf("%d", &num);
 
     // Check the selected option
     if (num == 1) {
         // Fahrenheit to Celsius conversion
-        printf("Enter the temperature in Farhenheit: ");
+        printf("Enter the temperature in Fahrenheit: ");
         scanf("%f", &F);
         C = (F - 32) * 5 / 9;
         printf("The temperature in Celsius is %.2f\n", C);
