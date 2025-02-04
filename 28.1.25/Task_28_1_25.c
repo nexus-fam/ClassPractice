@@ -42,7 +42,7 @@ int main() {
             printf("The product of the two numbers is: %d\n", product);
             break;
         }
-        case 5: { // used label and goto statement to loop if denumenitor is 0
+        case 5: { // used label and goto statement to loop if denominator is 0
             int p, q;
             float quotient;
             read :
